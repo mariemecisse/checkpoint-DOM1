@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/82c95fe8e2.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Checkpoint DOM</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div id="navbar">
+        <img id="logo" src="MBS3.png" alt="" />
+        <nav>
+          <ul>
+            <li class="nav-item"><a class="nav-link" href="">Acceuil</a></li>
+
+            <li><a class="nav-link" href="">Produits</a></li>
+          </ul>
+          <a href="">
+            <i class="fa-solid fa-cart-shopping cartshopping"></i>
+            <span id="totalprixpanier" class="cartshopping">0</span>
+            <small class="cartshopping">XOF</small>
+          </a>
+        </nav>
+      </div>
+    </header>
+    <!-- Titre -->
+    <main>
+      <div id="titreimage">
+        <h1 class="titre">Sublimez-vous pudiquement avec MB Store SN</h1>
+        <img class="monimage" src="MBS1.png" alt="" srcset="" />
+      </div>
+      <!-- Mon panier -->
+      <div class="produits">
+        <!-- Premier produit -->
+        <div class="card">
+          <img src="ensemble.JPG" alt="Nom du produit" />
+          <div class="card-content">
+            <h3>Ensemble Meylouss</h3>
+            <div class="prixunit">
+              <span class="price">Prix unitaire:</span>
+              <span>8000</span>
+              <span>XOF</span>
+            </div>
+            <div class="totalunit">
+              <span>Total unitaire:</span>
+              <span>0</span>
+              <span>XOF</span>
+            </div>
+            <div class="element">
+              <div>
+                <button class="minus">-</button>
+                <span class="num">0</span>
+                <button class="manus">+</button>
+              </div>
+              <i class="fa-regular fa-heart heartlike"></i>
+              <i class="fa-solid fa-trash trashdelete"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Deuxieme produit -->
+        <div class="card">
+          <img src="abaya.JPG" alt="Nom du produit" />
+          <div class="card-content">
+            <h3>Abaya</h3>
+            <div class="prixunit">
+              <span class="price">Prix unitaire:</span>
+              <span>6000</span>
+              <span>XOF</span>
+            </div>
+            <div class="totalunit">
+              <span>Total unitaire:</span>
+              <span>0</span>
+              <span>XOF</span>
+            </div>
+            <div class="element">
+              <div>
+                <button class="minus">-</button>
+                <span class="num">0</span>
+                <button class="manus">+</button>
+              </div>
+              <i class="fa-regular fa-heart heartlike"></i>
+              <i class="fa-solid fa-trash trashdelete"></i>
+            </div>
+          </div>
+        </div>
+        <!-- troisieme produit -->
+        <div class="card">
+          <img src="chemisealadji.JPG" alt="Nom du produit" />
+          <div class="card-content">
+            <h3>Chemise Aladji</h3>
+            <div class="prixunit">
+              <span class="price">Prix unitaire:</span>
+              <span>10000</span>
+              <span>XOF</span>
+            </div>
+            <div class="totalunit">
+              <span>Total unitaire:</span>
+              <span>0</span>
+              <span>XOF</span>
+            </div>
+            <div class="element">
+              <div>
+                <button class="minus">-</button>
+                <span class="num">0</span>
+                <button class="manus">+</button>
+              </div>
+              <i class="fa-regular fa-heart heartlike"></i>
+              <i class="fa-solid fa-trash trashdelete"></i>
+            </div>
+          </div>
+        </div>
+        <!-- quatrieme produit -->
+        <div class="card">
+          <img src="jellaba.JPG" alt="Nom du produit" />
+          <div class="card-content">
+            <h3>Jellaba sans capuche</h3>
+            <div class="prixunit">
+              <span class="price">Prix unitaire:</span>
+              <span>5000</span>
+              <span>XOF</span>
+            </div>
+            <div class="totalunit">
+              <span>Total unitaire:</span>
+              <span>0</span>
+              <span>XOF</span>
+            </div>
+            <div class="element">
+              <div>
+                <button class="minus">-</button>
+                <span class="num">0</span>
+                <button class="manus">+</button>
+              </div>
+              <i class="fa-regular fa-heart heartlike"></i>
+              <i class="fa-solid fa-trash trashdelete"></i>
+            </div>
+          </div>
+        </div>
+        <!-- cinquieme produit -->
+        <div class="card">
+          <img src="jellabacapuche.JPG" alt="Nom du produit" />
+          <div class="card-content">
+            <h3>Jellaba avec capuche</h3>
+            <div class="prixunit">
+              <span class="price">Prix unitaire:</span>
+              <span>8000</span>
+              <span>XOF</span>
+            </div>
+            <div class="totalunit">
+              <span>Total unitaire:</span>
+              <span>0</span>
+              <span>XOF</span>
+            </div>
+            <div class="element">
+              <div>
+                <button class="minus">-</button>
+                <span class="num">0</span>
+                <button class="manus">+</button>
+              </div>
+              <i class="fa-regular fa-heart heartlike"></i>
+              <i class="fa-solid fa-trash trashdelete"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- pied de gauche -->
+    <footer>
+      <div class="contact">
+        <span class="mycontact">Contactez-nous: sur Instagram</span>
+        <i class="fa-brands fa-instagram fa-xl"> mb_storesn</i>
+        <span class="mycontact"> et sur Whatsapp </span>
+        <i class="fa-brands fa-whatsapp fa-xl"> 78 431 07 25</i>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>

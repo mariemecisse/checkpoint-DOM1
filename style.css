@@ -1,0 +1,157 @@
+body {
+    background-color: white;
+    background-image: url(bg1.jpg);
+    background-size: 100%;
+    margin: 0 !important;
+    
+
+
+}
+
+#logo {
+    height: 70px;
+    width: 140px;
+    margin-left: 5%;
+    margin-top: 8px;
+
+}
+
+header {
+
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    
+
+}
+
+nav ul,
+nav li {
+    margin-right: 50px;
+    display: inline-flex;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: deeppink;
+}
+.cartshopping.active,
+.cartshopping:hover{
+    color:deeppink ;
+
+}
+#navbar {
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    background-color: rgb(29, 140, 188);
+    width: 100%;
+
+
+}
+
+#market {
+    display: flex;
+}
+
+.titre {
+    margin-top: 15%;
+}
+
+.monimage {
+    width: 5%;
+    height: 15%;
+    margin-top: 15%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+}
+
+#titreimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.card {
+    border: 10px solid rgb(29, 140, 188);
+    border-radius: 5px;
+    padding: 10px;
+    width: 280px;
+    margin: 50px;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+}
+
+
+.card-content {
+    margin-top: 10px;
+}
+
+.card-content h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-content p.price {
+    font-size: 16px;
+    margin: 5px 0;
+
+
+}
+
+.produits {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titre {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(29, 140, 188);
+    border-top-style: solid;
+
+}
+
+.mycontact {
+    font-size: 30px;
+}
+
+.heartlike {
+
+    color: black;
+
+}
+
+.heartlike.active {
+    color: deeppink;
+
+}
+
